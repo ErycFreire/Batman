@@ -1,9 +1,80 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 *{
     margin: 0;
     padding: 0;
+    font-family: "bat";
+    box-sizing: border-box;
+
 }
+
+@font-face {
+    font-family:'bat';
+    src: url('fonte/batman_forever/AnyConv.com__batmfa__.otf') format(opentype),
+    url('fonte/batman_forever/batmfa__.ttf') format(truetype);
+    font-weight: normal; 
+}
+
+body{
+    background-color: rgb(173, 173, 173);
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.032);
+    display: flex;
+    align-items: center;
+    column-gap: 64px;
+    width: 100%;
+    max-width: 1440px;
+    padding-top: 10px;
+}
+
+a img{
+    margin: 10px;
+}
+
+ul{
+    display: flex;
+    column-gap: 30px;
+    list-style: none;
+    margin-top: 5px;
+    
+}
+
+.home{
+    text-decoration: none;
+    color: rgb(250, 212, 212);
+    margin-top: 0;
+}
+
+.home:hover{
+    text-decoration: underline;
+
+}
+
+
+
+nav{
+    margin-left: auto;
+    margin-right: 40px;  
+}
+
+nav div a{
+    color: transparent;
+
+}
+
+nav div a img{
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.593);
+
+}
+
+
+
+
+
 
 
 
